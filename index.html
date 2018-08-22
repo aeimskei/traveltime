@@ -14,13 +14,15 @@
     <title>Travel Time</title>
   </head>
 
-  <body>
+  <body id="home" class="scrollspy">
+    <!-- NAVBAR -->
     <div class="navbar-fixed">
       <nav class="blue">
         <div class="container">
           <div class="nav-wrapper">
-            <!-- logo -->
+            <!-- logo and navbar -->
             <a href="#" class="brand-logo">TravelTime</a>
+            <!-- navbar mobile mode -->
             <a href="#" data-target="mobile-nav" class="sidenav-trigger">
               <i class="material-icons">menu</i>
             </a>
@@ -46,8 +48,63 @@
       </nav>
     </div>
 
+    <!-- SIDENAV for MOBILE -->
+    <!-- initialized in main.js -->
+    <ul class="sidenav" id="mobile-nav">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#search">Search</a>
+      </li>
+      <li>
+        <a href="#popular">Popular Places</a>
+      </li>
+      <li>
+        <a href="#gallery">Gallery</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+
+    <!-- SECTION for SLIDER -->
+    <!-- initialized in main.js -->
+    <section class="slider">
+      <ul class="slides">
+          <li>
+            <img src="img/resort1.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h2>Take Your Dream Vacation</h2>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, et.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/resort2.jpg"> <!-- random image -->
+            <div class="caption left-align">
+              <h2>We Work with All Budgets</h2>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nihil.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="img/resort3.jpg"> <!-- random image -->
+            <div class="caption right-align">
+              <h2>Group & Individual Getaways</h2>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, accusamus.</h5>
+            </div>
+          </li>
+        </ul>
+    </section>
+
+    <!-- SECTION for SEARCH AREA -->
+    <!-- initialized in main.js -->
+    <section id="search" class="section section-search blue darken-1 white-teext center scrollspy">
+
+    </section>
+
 
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
