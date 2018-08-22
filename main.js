@@ -10,3 +10,19 @@ M.Slider.init(slider, {
   transition: 500,
   interval: 6000 // 6 seconds
 });
+
+// autocomplete
+const autocompSearch = document.querySelector('.autocomplete');
+M.Autocomplete.init(autocompSearch, {
+  // show data
+  data: {
+    "Yangon": null,
+    "Bangkok": null,
+    "Chiang Mai": null,
+    "Luangprabang": null,
+    "Mandalay": null,
+    "Vientiane": null,
+    "Pattaya": null,
+    "Phi Phi Islands": null
+  }
+})
