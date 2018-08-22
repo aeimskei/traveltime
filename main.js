@@ -27,3 +27,7 @@ M.Autocomplete.init(autocompSearch, {
     "Phuket, Thailand": null
   }
 })
+
+// material boxed
+const materialboxed = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(materialboxed, {});
