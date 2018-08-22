@@ -23,6 +23,7 @@ M.Autocomplete.init(autocompSearch, {
     "Mandalay": null,
     "Vientiane": null,
     "Pattaya": null,
-    "Phi Phi Islands": null
+    "Phi Phi Islands": null,
+    "Phuket, Thailand": null
   }
 })
